@@ -10,7 +10,7 @@ dataSources:
     source:
       address: '0xdD9EFCbDf9f422e2fc159eFe77aDD3730d48056d'
       abi: Factory
-      startBlock: 11482676
+      startBlock: 11482675
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: rinkeby
+    network: mainnet
     source:
       abi: Pair
     mapping:
